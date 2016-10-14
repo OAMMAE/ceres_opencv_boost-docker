@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 2.8)
 project(hello_world)
 message("Project name : ${PROJECT_NAME}")
 
+set(CMAKE_CXX_FLAGS "-std=c++11")
+
 set(EXE_NAME helloworld)
 
 find_package(Ceres REQUIRED)
