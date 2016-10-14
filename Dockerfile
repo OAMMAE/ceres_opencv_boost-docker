@@ -5,7 +5,7 @@ MAINTAINER OsamuAMMAE
 ####################
 # ceres solver
 ####################
-RUN apt-get update && apt-get install -y build-essential cmake && apt-get install -y libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev apt-file git vim
+RUN apt-get update && apt-get install -y build-essential cmake && apt-get install -y libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev apt-file git vim clang
 
 RUN apt-file update
 # RUN apt-file search add-apt-repository
